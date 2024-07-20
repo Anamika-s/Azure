@@ -1,0 +1,50 @@
+Create two Storage Accounts
+In one storage account, add blob 
+we have to copy this container from one storage acct to other
+
+For this ,first we need to craete some roles for both t he accounts
+That role will be used to contribute to this storage accont. bot h of them shid be able to access
+
+Fir this we use IAM
+
+Select account
+select IAM
+Add
+Add role assignment
+Storage Blob Data Conytributor
+Slect user
+Same for other storage acct too
+
+
+NOW WE have to use SAS Shared Access Signature
+
+NoW we have to downlod AzCopy utility
+
+Go to command prompt
+
+C:\> Go to folder
+
+azcopy login --tenant-id=
+
+Copy code
+
+azcopy copy sourcesasurl destinationsasurl --recursive
+
+
+https://sourceforaz.blob.core.windows.net/?sv=2019-12-12&ss=b&srt=sco&sp=rwdlacx&se=2020-08-02T19:37:42Z&st=2020-08-02T11:37:42Z&spr=https&sig=MSxTIQY8XRTfIvD1J4o9w5uMwDS2o%2Fh12pthSTJ3%2B9M%3D
+
+
+
+
+https://azdestinationstorage.blob.core.windows.net/?sv=2019-12-12&ss=b&srt=sco&sp=rwdlacx&se=2020-08-02T19:39:29Z&st=2020-08-02T11:39:29Z&spr=https&sig=Svq3SR7oQpKG5pBgJadlgtt%2F6NIRRPdJ5jOC5qcvPZc%3D
+
+
+8f7ac903-673a-4e39-abd3-4884917219a4
+
+local directory
+
+azcopy copy "https://s1source.blob.core.windows.net/c111" "E:\IM"  --recursive
+
+
+
+https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-blobs

@@ -1,0 +1,25 @@
+create table FacebookUpdates
+{
+ID int NOT NULL Primary Key IDENTITY,
+StatusPosted varchar(1000),
+PosetdAt varchar(1000)
+}
+
+----------------------
+create table EmailAlerts
+(
+ID int NOT NULL PRIMARY KEY IDENTITY(1,1),
+ToAddress varchar(50) NOT NULL,
+MailSubject varchar(50) NOT NULL,
+MailBody varchar(MAX) NOT NULL,
+AlertSent bit NOT NULL
+)
+Db_PASSWORD123
+----------------------
+
+INSERT INTO EmailAlerts(ToAddress, MailSubject, MailBody, AlertSent) values
+('anamika.sawhney22@gmail.com','Sub1','This is Message Body -2',0)
+INSERT INTO EmailAlerts(ToAddress, MailSubject, MailBody, AlertSent) values
+('anamika_sawhney@rediffmail.com','Sub2','This is Message Body -3',0)
+INSERT INTO EmailAlerts(ToAddress, MailSubject, MailBody, AlertSent) values
+('anamika.sawhney22@gmail.com','Sub1','This is Message Body -4',0)

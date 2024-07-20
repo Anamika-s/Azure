@@ -1,0 +1,34 @@
+$diskconfig= New-AzureRMDiskConfig -Location eastus -Createoption empty -DiskSizeGB 40 
+
+$dd = New-azureRmDIsk -ResourceGroupName rg3 -Diskname disk2 $diskconfig
+
+DIsk is craeted bt not connected to any machine
+
+Get machine for this disk
+
+$vm = GetAzureRmVM -ResourceGroupName rg3 -Name vm3
+
+Definen commands
+
+$vm = Add-AzureRmVMDataDisk -vm $vm -name disk2 -CraeteOption attach -ManagedDiskId $dd.id -lun 1  
+
+Creta some partiotions
+get-disk  | where PartitionStyle -eq raw | InitializeDisk -PartitionStyle mbr=passThru | new-parttion -AssignDriveLetter -UseMaximumSize | format-volume -Filesystem NTFS -NewfileSystemLabel "disk1" -confirm:$false
+	
+
+
+
+
+
+
+
+
+
+
+https://www.youtube.com/watch?v=Ih_DVZfCUT0
+
+
+
+
+https://www.youtube.com/watch?v=jGRJdDZzero
+

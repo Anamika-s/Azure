@@ -1,0 +1,40 @@
+
+Create file in local machine, index.html , we have to upload or copy thie file to server
+
+Open Winscp
+
+Connect with remote machine
+
+Go to your user folder in vm
+Copy the file 
+
+Once its copied , go to vm
+
+anamika@linuxvm1:~$ pwd
+/home/anamika
+
+anamika@linuxvm1:~$ ls
+index.html
+
+Need to copy this to /var/www/html
+
+
+anamika@linuxvm1:~$ sudo cp * /var/www/html
+
+anamika@linuxvm1:~$ cd /var
+
+anamika@linuxvm1:/var$ ls
+backups  crash  local  log   opt  snap   tmp
+cache    lib    lock   mail  run  spool  www
+
+anamika@linuxvm1:/var$ cd www
+
+anamika@linuxvm1:/var/www$ cd html
+
+anamika@linuxvm1:/var/www/html$ ls
+index.html
+anamika@linuxvm1:/var/www/html$
+
+Now check in browser
+
+

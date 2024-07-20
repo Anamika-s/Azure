@@ -1,0 +1,17 @@
+Create a Basic VM
+See the configurations
+Create a Scale Set
+See its working
+Use existing OS disk and create a VM out of it, Create a vm FROM a Virtual Disk
+Use ARM Template to create VM
+
+Custom Images
+Deploy a VM from a Custom Image
+Backup Service
+Backing up an Azure VM
+
+Recovery Service Vault
+
+Restore a Backup
+
+Create a new VM

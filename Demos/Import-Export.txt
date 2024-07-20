@@ -1,0 +1,5 @@
+https://docs.microsoft.com/en-us/azure/storage/common/storage-import-export-data-to-files#step-1-prepare-the-drives
+
+
+
+https://docs.microsoft.com/en-us/azure/storage/common/storage-import-export-data-to-files#:~:text=Perform%20the%20following%20steps%20to%20create%20an%20import%20job%20in,Click%20Create%20Import%2Fexport%20Job.

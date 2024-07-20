@@ -1,0 +1,24 @@
+Create VM -> Windows 2012
+COnnect it using RDP
+
+Create VM -> Ubuntu , use password
+Connect it using putty
+
+Create VM -> Ubuntu , use ssh
+Connect it using putty
+
+Make the servers Web Server (both of them)
+Install IIS on Windows . apaache2 on Ubuntu
+
+Check localhost on both VM's
+
+By using ip address, see on browser
+
+Add some other files in both the servers. For ubuntu, use Winscp
+
+Attach a Data Disk (Managed & UmManaged) 
+Using Server Manager , diskmgmt.msc , powershell
+
+Create a Custom Image out of this VM
+
+

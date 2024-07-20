@@ -1,0 +1,10 @@
+backup & SIte recovery are not same
+
+in site recovery , we talk about business continuity & disaster recovery
+, which menas our business shud not be affrecte while soing siurte recicery
+All servers 
+huge amount of data 
+
+
+backup > small folders , files & data of VM 
+we take help of recovery vault

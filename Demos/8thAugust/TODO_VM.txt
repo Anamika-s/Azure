@@ -1,0 +1,70 @@
+Create a VM , use Windows 2012
+
+Use RDP 
+
+Connect
+
+Enable IIS
+
+
+Check localost in browser
+
+Check in VM IP
+
+Public IP is dynaimc. not static
+Means if we stop and restart, it wil change
+Snapshot : of disk is a vhd , we can attach it to a VM
+
+image that v create is a service in Azure
+though its a vhd but it is abstarcted
+If u delete any resource in azure, u cannot have it back
+
+some services allow u to restore
+like soft delete
+
+
+snapshots are downloadbale
+images when we capture from a VM, we can create multiple VM's out of tt image, but that VM can not b used.
+
+Image is created by using Capture option
+VM goes to stopped state
+Creation of an Image is a 3 step process
+1. It stops your VM.
+2. After stopping VM, it generalises the VM. Which means It runs a tool inside the VM.
+3. Create an Image for you.
+
+VM can be created from an Image in the same region
+
+Capture : Captures the VM by copying virtual hard disks of the VM and outputs a templat ethat can be used tio create similar VM's
+
+Images are stored separetely , but they use stirage accint but that is abstracted from you
+
+VM will move to stopped state , not but used now
+
+U can delete it
+But u can see in RG , image will be there
+U can see Image as a service in Compute
+
+Now u can clik on this image and create VM
+
+
+REGION CANT BE CHANGED 
+
+SNAPSHOT is used to take backup of ur OS or data disks. They can not be used to ctrate VM.
+
+
+SSH is encrypted connection protocol which is used for protection
+
+
+
+Add Data Disk
+
+Add it to ur VM
+
+Add a folder there
+
+Create File Share in Azure portal
+
+Bring it in VM using Mounting , File sync
+
+ 

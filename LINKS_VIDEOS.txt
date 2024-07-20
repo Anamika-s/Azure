@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=SPQxXmXgHsU&feature=emb_rel_end   : Azure Backup
+
+https://www.youtube.com/watch?v=gLcYYAEYeGA : Scaling in Azure
+
+
+Connectivity in VM’s?  in same VNet
+https://www.youtube.com/watch?v=BCw_KvrhvIE
+
+
+VNEt to VNet Peering in same region
+https://www.youtube.com/watch?v=r7G8Oz7pc9I

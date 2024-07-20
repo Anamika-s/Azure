@@ -1,0 +1,62 @@
+Create Storage Account
+Check 3 different options
+Check standard & Premium
+Cool Hot
+
+
+Upgrade from one to other account
+Create Container
+
+Size of container, size of blobs
+Check permsissions
+See them in browser
+
+Change Access level to private
+Generate SAS token
+With it , see in browser
+
+Acquire Lease 
+Break Lease
+
+See Data Protection
+Soft Delete -  Enable it , keep for some no. of days, Even after deletion, thay can be retained after how many days
+
+Check in browser, name of container is coming. We do not want to show name of container, there we have a concept of root container
+
+Create  container called $root, set access at container level
+
+we can remove $root
+
+Can we move storage account from one subscription to other ? Yes  , but not accross directories
+
+STORAGE EXPLORER
+
+Connect S Explorer with Azure subsrciption
+
+File share
+View Snapshot > Add Snapshot
+
+Access Keys : Required to authenticate ur appplication or SAS token
+We dont use both these  keys , These are reflected in SAS token
+ 2keys : Why ?
+
+SAS tokem generated will no longer will be valid
+
+
+
+check link for 
+where are azure data centers located
+
+
+DOWNLOAD Server Manager from https://www.microsoft.com/en-us/download/confirmation.aspx?id=8053
+
+
+
+
+https://www.youtube.com/watch?v=feWI_G-xB8w  
+
+File Sync
+
+
+
+https://www.youtube.com/watch?v=dwY3hUus3BY Data Migration

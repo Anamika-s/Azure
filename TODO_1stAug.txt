@@ -1,0 +1,14 @@
+Create a Free Account
+Create Resource Group
+Create Resource
+Understand Regions, AZ, AS
+Understand subscription 
+Understand Active Directory
+Create Users
+Assign them password 
+Open azure portal in inginto mode
+Login
+Check there
+Use your subscription, give this new user perission Contributor
+OPen his account again, and try to create resources
+Move resources from one Resource Group or subscription to other

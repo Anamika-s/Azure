@@ -1,0 +1,19 @@
+Use the Deployment Image Servicing and Management (DISM.exe) tool to enable PowerShell:
+
+
+dism.exe /online /enable-feature /featurename:MicrosoftWindowsPowerShell /all
+
+Install IIS 8.5 using PowerShell
+You can use the following PowerShell cmdlets to install all of IIS 8.5:
+
+
+import-module servermanager
+add-windowsfeature web-server -includeallsubfeature
+
+
+To install only specific features, list them in the PowerShell cmdlet, as in the following example:
+
+
+import-module servermanager
+add-windowsfeature Web-Server, Web-WebServer, Web-Security, 
+Web-Filtering

@@ -1,0 +1,38 @@
+Thursday
+Chapt  1-4                           By 12 p.m. 3 chapters
+                                     5 p.m. Cosmos , Azure Functions Logic Apps                                      by 
+
+COSMOS DB 
+Azure Funtions
+Logic Apps
+AKS -> One application
+AKS -> Three application
+
+----------------------
+Friday
+Chapt  5-10
+
+Backup
+Azure SPR
+AZ-Connect
+MFA
+
+---------------------
+Saturday
+Chapt  10-15
+
+
+Backup
+Azure SPR
+AZ-Connect
+MFA
+ 
+COSMOS DB 
+Azure Funtions
+Logic Apps
+
+Sunday
+Container Registry
+Docker
+Docker Compose
+

@@ -1,0 +1,24 @@
+get-disk : To get all the disks , get information about any disk attached to the current operating system. Then you can find the uninitialized disk is shown as “RAW”.
+
+initialize-disk n : where n is no. of disk to be initialzed 
+
+get-disk 
+
+ you can see the disk2 is initialized to be GPT from RAW
+
+get-disk where partition-style=raw
+
+
+This command will initialize all disks as GPT by default if you want to get an MBR disk, you need to use the "‑PartitionStyle" parameter: "Initialize-Disk 2 –PartitionStyle MBR".
+
+
+To use the initialized disk, then you need to create partition and format it to a compatible system
+
+
+New-Partition -DiskNumber 2 -AssignDriveLetter –UseMaximumSize”
+
+
+“get-partition :  you can find a new partition is created with a drive letter (G).
+
+Format-Volume –DriveLetter G -FileSystem NTFS” and press “Enter” to format the new partition as NTFS file system.
+

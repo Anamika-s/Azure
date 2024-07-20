@@ -1,0 +1,97 @@
+docker --version
+
+sudo docker pull ubuntu
+
+sudo docker images
+
+sudo docker run -it -d ubuntu
+We will get id of continer
+sudo docker ps
+sudo docker stop id of container
+sudo docker run -it -d ubuntu
+
+sudo docker ps
+
+sudo docker ps -a
+
+sudo docker exec -it con id bash
+
+We are inside the container now
+
+apt-get update
+exit
+sudo docker ps
+sudo docker stop coid
+
+sudo docker ps
+
+Nothing will come
+
+sudo docker kill container id
+
+To remove container
+
+sudo docker rm conteinerid
+
+sudo docker rmi imageid
+
+**********************************
+Save changes in container
+**********************************
+sudo docker run -it -d ubuntu
+
+sudo docker exec -it con id bash
+
+ls
+
+mkdir dir1
+ls
+exit
+
+sudo docker ps
+
+sudo docker commit containerid test
+where test is image name
+
+sudo doker images
+We will see this new image also
+sudo docker run -it -d test
+
+sudo docker exec -it contid bash
+You will see this directory here
+
+This is our custom image
+
+sudo docker ps
+You will see two containers
+Remove them
+
+sudo docker rm -f $(sudo docker ps -a -q)
+
+sudo docker ps
+There are no containers now
+
+******************
+Install apache on ubutnu
+
+sudo docker run -it -d ubuntu
+sudo docker exec -it conid bash
+install apacahe
+apt-get update
+apt-get install apache2 
+service apache2 start
+service apache2 status
+
+exit
+
+COmmit these changes to container
+
+sudo doker ps
+sudo doker commit conid anamikasawhney/newimage
+
+sudo docker run -it -p 81:80 -d anamikasawhney/newimage
+
+push to docker hub
+
+sudo docker login
+sudo docker push anamikasawhney/newimage

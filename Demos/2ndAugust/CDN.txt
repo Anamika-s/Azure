@@ -1,0 +1,10 @@
+CDN 
+Create  BLOB Storage 
+Upload some image in it once it is done, ,now we wil use CDN service ,create replica of images 
+and place them in CDN
+
+ So we can access content using CDN URL insted of using actual server 
+
+First create a CDN profile. This is the home for all CDN endpoints that we will use 
+
+https://docs.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn

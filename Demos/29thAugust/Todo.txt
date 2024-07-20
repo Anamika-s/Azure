@@ -1,0 +1,44 @@
+29th August
+
+cdn
+fileshare
+
+management group 
+rbac
+custom role
+
+policy
+
+Azure AD
+Why Azure AD?
+
+Azure AD Connet
+
+SSPR
+
+MFA
+Bastion Host
+
+
+Create Route Tables
+
+30th August
+
+APP Service
+App Service Plan
+Azure Web App
+
+Logic App
+Function App
+WebJobs
+Docker 
+Docker File
+Azure Container Registery
+Azure container Instance
+Web App for Containers
+Monitoring
+
+5th Sept
+
+AKS
+Database

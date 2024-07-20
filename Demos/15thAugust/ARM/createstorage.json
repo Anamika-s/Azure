@@ -1,0 +1,26 @@
+// //Install 
+// // Install 
+// //Installing Snippets Copy the contents of the file to your clipboard.
+// Launch Visual Studio Code. Navigate to File > Preferences > User Snippets > JSON. 
+// //Save and close the user snippets file.
+// // First 
+{
+	 "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+	 "contentVersion": "1.0.0.0",
+	 "parameters": {},
+	 "functions": [],
+	 "variables": {},
+	 "resources": [{
+		 "name": "storageaccountanamika",
+		 "type": "Microsoft.Storage/storageAccounts",
+		 "apiVersion": "2015-06-15",
+		 "location": "[resourceGroup().location]",
+		 "tags": {
+			 "displayName": "storageaccountanamika"
+		 },
+		 "properties": {
+			 "accountType": "Standard_LRS"
+		 }
+	 }],
+	 "outputs": {}
+ }

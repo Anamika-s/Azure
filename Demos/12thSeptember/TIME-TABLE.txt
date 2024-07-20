@@ -1,0 +1,1 @@
+ sudo az aks create --resource-group rg --name myAKSCluster2 --node-count 2 --generate-ssh-keys  --attach-acr /subscriptions/49a4d804-0cd0-44b2-89e5-fb1f592a927e/resourcegroups/rg/providers/Microsoft.ContainerRegistry/registries/acrNamefirst

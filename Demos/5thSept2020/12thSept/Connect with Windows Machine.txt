@@ -1,0 +1,13 @@
+Connect with remote machine
+
+Once iis is installed , (either through powershell or thru server manager)
+
+You will see initpub/www folder in C: drive
+
+Copy the file 
+
+Once its copied , go to vm
+
+Now check in browser
+
+

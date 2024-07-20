@@ -1,0 +1,36 @@
+Load Balancer
+Public Load Balancer
+Internal Load Balancer
+
+
+Create A VNet
+Check its default components
+
+Create Subnets
+Understand CIDR
+
+Communication between VMs in different subnets
+
+Communication between VMs in VNets in same region: Peering
+
+Communication between VMs in VNets in different region: Global Peering, usinh Virtual Network Gateway
+
+Point to site Communication
+
+Site to site Communication
+
+Understang NSG
+Create NSG , apply on Subnets 
+
+NIC
+
+Create Public IP on VM after its created
+
+Virtual Appliance , Create Route Tables
+
+File Sync
+CDN
+
+
+
+ 

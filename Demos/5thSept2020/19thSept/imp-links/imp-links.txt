@@ -1,0 +1,29 @@
+azure price calculator
+
+
+
+https://azure.microsoft.com/en-in/pricing/calculator/
+
+
+Azure Naming Convention
+
+https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging
+
+
+azure speed
+https://www.azurespeed.com/Azure/Latency
+
+https://azure.microsoft.com/en-us/global-infrastructure/geographies/
+
+
+
+different type of disks  in azure
+
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/disks-types
+
+
+
+HOW TO DISABLE INTERNET EXPLORER ENHANCED SECURITY ON AZURE VM FOR DYNAMICS NAV?
+
+
+https://thinkaboutit.be/2017/02/how-to-disable-internet-explorer-enhanced-security-on-azure-vm-for-dynamics-nav/
